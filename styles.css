@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #050C9C;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    justify-items: auto;
+    height: 25vh;
+}
+
+header h1 {
+    margin: 0;
+}
+ 
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #050C9C;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #ffff;
+    color: white;
+  }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.texto{
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.ontainer0c1{
+    width: 40rem;
+    justify-items: left;
+    display: flex;
+    margin: 0rem;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+img{
+    width: 30%;
+}
+
+section h2 {
+    margin-top: 0;
+}
+  
+.cta-button {
+    display: inline-block;
+    background-color: #4e31cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #4E31AA;
+}
+
+.cleven {
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #3A1078;
+    padding: 10px 0;
+    text-align: center;
+    color: #F7F7F8;
+}
+
+footer p {
+    margin: 0;
+}
